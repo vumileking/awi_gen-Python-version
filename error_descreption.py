@@ -2,12 +2,12 @@
 #way of connecting
 from redcap import Project, RedcapError
 import psycopg2
-TOKEN="B3CC2DDECDD88DF66915B1F362BD8271"
+TOKEN="token"
 URL="https://redcap.core.wits.ac.za/redcap/redcap_v7.6.7/API/"
 #connecting to database using postgreSQL
-hostname='146.141.240.87'
-username='vumile'
-password='defect.iota.foxhole'
+hostname='hostname'
+username='username'
+password='password'
 database='APIPractice'
 submit_data= []
 to_database=[]
